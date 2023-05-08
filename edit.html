@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="bootstrap.js"></script>
+    <script async src="scripts.js"></script>
+    <title>Nour Mawasi-form</title>
+</head>
+
+<body>
+    <div class="wrapper wrapper2">
+        <div class="container">
+            <form action="http://localhost:8000/products" method="get" , autocomplete="on">
+                product name:<input type="text" class="form-control" name="name" placeholder="product name"><br>
+                product description: <textarea class="form-control" name="description"
+                    placeholder="product description"></textarea>
+
+                <label><br>size:<br>
+                    <select name="size" required>
+                        <option value="s">S</option>
+                        <option value="m" selected>M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+                </label>
+                <input type="submit" class="form-control submit" value="search">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

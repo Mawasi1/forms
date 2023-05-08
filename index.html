@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="bootstrap.js"></script>
+  <script async src="scripts.js"></script>
+  <title>Nour Mawasi-form</title>
+</head>
+
+<body>
+  <form action="http://se.shenkar.ac.il/teach/web1/get_form3.php" method="get" autocomplete="on" onkeypress="return event.keyCode != 13">
+  <div class="wrapper">
+    <div class="left-side">
+      <div class="create-form">+ New form</div>
+      <div class="form-one">The Form</div>
+      <!-- <div id="checkbox" class="checkbox">
+        <fieldset>
+          <legend>Interests:</legend>
+
+          <div>
+            <input type="checkbox" value="netflix" name="interests[]" checked>
+            <label for="netflix">Netflix</label>
+          </div>
+
+          <div>
+            <input type="checkbox" value="football" name="interests[]">
+            <label for="football">Football</label>
+          </div>
+          <div>
+            <input type="checkbox" value="poker" name="interests[]">
+            <label for="poker">Poker</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Gender:</legend>
+
+          <div>
+            <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="male">Male</label>
+          </div>
+
+          <div>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+          </div>
+
+          <div>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="female">Other</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <label  for="age">
+            <legend style=""> Pick your age:</legend>
+          </label>
+          <select name="age" id="age" required>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26" selected>26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            <option value="32">32</option>
+            <option value="33">33</option>
+            <option value="34">34</option>
+            <option value="35">35</option>
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+          </select>
+        </fieldset> -->
+      <!-- </div> -->
+      <!-- <input type="checkbox" name="interests[]" value="netflix" id="netflix"> -->
+      <!-- firends: <input type="checkbox" name="interests[]" value="friends"><br>
+      sports: <input type="checkbox" name="interests[]" value="sports"><br> -->
+    </div>
+    <div class="main">
+      <div class="feedback" id="fb-box">
+        <div class="welcome-screen" id="formGPT">FormGPT</div>
+        <p id="para"><i>a ChatGpt themed form filling site. <br> or kinda <br> idk?</i></p>
+        <ul id="list">
+          <li><i>Click the New form button to start.</i></li>
+          <li><i>Press Enter after every input to continue.</i></li>
+          <li><i>click the kite icon to submit!</i></li>
+        </ul>
+        <!-- <div class="background-color" id="bg-color"></div> -->
+        <!-- <div class="feedback-box" ></div> -->
+      </div>
+      <div class="chat-container" id="form">
+        <!-- <object class="enter" data="images/paper-plane-svgrepo-com.svg" onclick="nextInput()"></object> -->
+        <input type="text" class="form-control fname" name="fullName" placeholder="Enter your full name" id="first-name">
+        <input type="password" class="form-control pass" name="pass" placeholder="Enter your password" id="pass">
+        <input type="email" class="form-control mail" name="mail" placeholder="Enter your Email" id="mail">
+        <input type="url" class="form-control website" name="website" placeholder="Enter your website" id="website" novalidate>
+        <input type="tel" class="form-control phone" name="phone" placeholder="Enter your phone number" id="phone">
+        <input type="number" class="form-control coffee" name="coffee"
+          placeholder="Enter the number of Coffee cups you drink per day" id="coffee">
+        <input type="range" class="form-control temper" name="temper" placeholder="Enter temprature" id="temper">
+        <textarea name="address" class="form-control address" placeholder="Enter your address" id="address"></textarea>
+        <input type="text" class="form-control temp" name="" placeholder="Press enter when you pick your choices above" id="temp">
+        <input type="text" class="form-control tempt" name="" placeholder="Press enter when you pick your choices above" id="tempt">
+        <input type="text" class="form-control tempth" name="" placeholder="Press enter when you pick your choices above" id="tempth">
+        <input type="image" class="submit" value="arriba!" src="images/paper-plane-svgrepo-com.svg" alt="submit!"
+          title="sub">
+
+
+      </div>
+
+    </div>
+  </form>
+</body>
+
+
+</html>

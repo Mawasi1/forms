@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+section,
+div {
+    display: block;
+}
+
+body {
+
+    background-color: rgb(52, 53, 65);
+
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 670px;
+    min-width: 800px;
+    background-color: rgb(52, 53, 65);
+}
+
+.left-side {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 713px;
+    width: 260px;
+    left: 0px;
+    top: 123px;
+    border-radius: 0px;
+    color: white;
+    flex-direction: column;
+
+    background-color: rgb(37, 36, 36);
+
+}
+
+.main {
+    min-height: 670px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 200px;
+    flex: 1;
+    background-color: rgb(52, 53, 65);
+
+
+
+}
+
+.feedback {
+
+    min-height: 500px;
+    min-width: 1017.6px;
+    font-size: 100px;
+
+
+
+
+}
+
+.welcome-screen {
+    margin-left: 450px;
+    margin-top: 100px;
+    font-size: 36px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.chat-container {
+    height: 192px;
+    width: 100%;
+    background-color: rgb(52, 53, 65);
+    transition: background-color 0.5s ease-out;
+    position: fixed;
+    bottom: 0;
+
+}
+
+.chat-container.scroll {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(49, 47, 47) 100%);
+    background-clip: content-box;
+}
+
+.form-control {
+    width: 768px;
+    height: 49.6px;
+    background-color: rgba(47, 47, 49, 0.5);
+    border-color: transparent;
+    color: white;
+    margin-top: 30px;
+    margin-left: 200px;
+
+}
+
+.form-control::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+.form-control:focus {
+    background-color: rgba(47, 47, 49, 0.5);
+    color: white;
+    opacity: 1;
+
+}
+
+.enter {
+    width: 25px;
+    height: 25px;
+    margin-left: 930px;
+    margin-top: 45px;
+
+    opacity: 0.4;
+
+}
+
+
+.enter:hover {
+
+    opacity: 1;
+}
+
+
+.feedback-box {
+    position: sticky;
+    width: 450px;
+    min-height: 200px;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    margin-left: 250px;
+    margin-top: 45px;
+    background-color: black;
+    border-top-style: solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-width: 30px;
+    border-color: rgba(217, 217, 227, 0.34);
+    /* z-index: 1; */
+    /* margin-left: 320px;
+    padding-bottom: 200px; */
+
+}
+
+.background-color {
+    position: relative;
+    background-color: rgba(236, 236, 241, 0.3);
+    height: 200px;
+    width: 1250px;
+    padding-bottom: 200px;
+    /* z-index: 0; */
+}
+
+
+.fname {
+    visibility: hidden;
+    position: absolute;
+
+}
+
+.pass {
+    position: absolute;
+    visibility: hidden;
+}
+
+.mail {
+    position: absolute;
+    visibility: hidden;
+
+}
+
+.website {
+    position: absolute;
+    visibility: hidden;
+
+}
+
+.phone {
+    position: absolute;
+    visibility: hidden;
+}
+
+.coffee {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+.temper {
+    position: absolute;
+    visibility: hidden;
+}
+
+.address {
+
+    position: absolute;
+    visibility: hidden;
+}
+
+fieldset {
+
+    margin-top: 70px;
+    /* margin-left: 20px; */
+}
+
+.checkbox {
+    visibility: visible;
+    position: fixed;
+}
+
+.age {
+    margin-top: px;
+}
+
+.temp {
+    position: absolute;
+
+    visibility: hidden;
+}
+
+.tempt {
+    position: absolute;
+    visibility: hidden;
+}
+
+.tempth {
+    position: absolute;
+    visibility: hidden;
+}
+
+.submit {
+    width: 60px;
+    height: 45px;
+    /* background-color: green; */
+    padding: 5px;
+    margin-top: 32px;
+    margin-left: 970px;
+    z-index: 1;
+}
+
+.submit:hover {
+    background-color: rgba(23, 213, 23, 0.508);
+
+}
+
+p {
+    font-size: 16px;
+    color: white;
+    opacity: 1;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+
+
+}
+
+.create-form {
+    height: 50px;
+    border-style: solid;
+    border-width: 0.2px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 10px;
+    border-color: gray;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.create-form:hover {
+    background-color: rgb(151, 151, 152);
+    transition-duration: 0.3s;
+    opacity: 0.2;
+}
+
+ul {
+    font-size: 16px;
+    color: white;
+    opacity: 1;
+    text-align: center;
+    margin-top: 100px;
+    list-style-type: none;
+}
+
+.form-one {
+    height: 50px;
+    border-style: solid;
+    border-width: 0.2px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 10px;
+    border-color: gray;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgba(52, 53, 65, 1);
+    visibility: hidden;
+
+}
